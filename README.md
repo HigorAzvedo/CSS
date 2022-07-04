@@ -33,5 +33,17 @@ Align-items --> Trata do alinhamneto dos flex itens de acordo com o eixo do cont
 * flex-end: alinhamento dos itens no final.
 * baseline: alinhamento de acordo com a linha base da tipografia dos itens.
 
+# Propriedades Flex items
+
+Flex grow --> Define a proporcionalidade de crescimento dos itens, respitando o tamanho de seus conteúdos internos. OBS: Não irá funcionar caso tenhamos adicionado justify-content ao nosso flex container.
+
+Flex basis --> É a propriedade que estabelece o tamanho inicial do item antes da distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto.
+
+* Valores possíveis:
+* auto: caso o item na tenha tamanho, este será proporcional ao conteúdo do item.
+* px, %, em....: são valores exatos previamente definidos.
+* 0 (zero): teá relação com a definição do flex-grow.
+* 
+
 
 
