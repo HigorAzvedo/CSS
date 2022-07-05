@@ -25,7 +25,8 @@ Justify Content --> Essa propriedade vai se encarregar de alinhar os itens dentr
 * space-between: cria um espaçamento igual entre os elementos.
 * space-around: os espçamentos do meio são duas vezes maiores que o inicial e final.
 
-Align-items --> Trata do alinhamneto dos flex itens de acordo com o eixo do container.O alinhamento é diferente para quando os itens estão em colunas ou linhas. Permite o alinhamento central no eixo vertical.
+Align-items --> Trata do alinhamneto dos flex itens de acordo com o eixo do container. O alinhamento é diferente para quando os itens estão em colunas ou linhas. Permite o alinhamento central no eixo vertical.
+
 * Tipos de Alinhamento:
 * center: alinhamento dos itens ao centro.
 * stretch: padrão, e os flex itens crescem igualmente. 
@@ -40,10 +41,26 @@ Flex grow --> Define a proporcionalidade de crescimento dos itens, respitando o 
 Flex basis --> É a propriedade que estabelece o tamanho inicial do item antes da distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto.
 
 * Valores possíveis:
-* auto: caso o item na tenha tamanho, este será proporcional ao conteúdo do item.
+* auto: caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
 * px, %, em....: são valores exatos previamente definidos.
-* 0 (zero): teá relação com a definição do flex-grow.
-* 
+* 0 (zero): terá relação com a definição do flex-grow.
+
+flex-shrink --> É a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
+
+Flex --> Esta propriedade é um atalho ou abreviação de escrita para as propriedades: grow, shrink e basis.
+
+Order --> Propriedade que aplica uma ordem aos elementos no css.
+
+Align-self --> É a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
+
+* Valores:
+* auto: valor padrão, irá respeita a definição de align-items do container.
+* flex-start: ao inicio do container.
+* flex-end: ao final do container.
+* center: relativo ao centro de acordo com o eixo.
+* stretch: ocupa todo os espaços relativo.
+* baseline: utiliza a linha base da tipografia.
+
 
 
 
